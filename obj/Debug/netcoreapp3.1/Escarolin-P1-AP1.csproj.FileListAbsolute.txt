@@ -17,3 +17,4 @@ C:\Users\Lenovo\source\repos\Escarolin-P1-AP1\obj\Debug\netcoreapp3.1\Escarolin-
 C:\Users\Lenovo\source\repos\Escarolin-P1-AP1\obj\Debug\netcoreapp3.1\Escarolin-P1-AP1.dll
 C:\Users\Lenovo\source\repos\Escarolin-P1-AP1\obj\Debug\netcoreapp3.1\Escarolin-P1-AP1.pdb
 C:\Users\Lenovo\source\repos\Escarolin-P1-AP1\obj\Debug\netcoreapp3.1\Escarolin-P1-AP1.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\Escarolin-P1-AP1\obj\Debug\netcoreapp3.1\Escarolin-P1-AP1_Content.g.cs
