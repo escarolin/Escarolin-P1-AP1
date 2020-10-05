@@ -14,9 +14,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-  </ItemGroup>
-<!-- Imagenes -->
+
+    <!-- Imagenes -->
     <Content Include="Imagenes\*.*" >
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>+
+    </Content>
+  </ItemGroup>
+
 </Project>
