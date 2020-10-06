@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Examen1AP.BLL
+namespace Escarolin_P1_AP1.BLL
 {
     public class Utilidades
     {

@@ -10,6 +10,7 @@ using System.Windows.Documents;
 using Microsoft.EntityFrameworkCore;
 using Escarolin_P1_AP1.Entidades;
 using Escarolin_P1_AP1.DAL;
+using System.Linq.Expressions;
 
 
 namespace Escarolin_P1_AP1.BLL{

@@ -9,7 +9,7 @@ namespace Escarolin_P1_AP1.DAL{
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
 
-                optionsBuilder.UseSqlite(@"Data Soure=Data\Cuidades.db");
+                optionsBuilder.UseSqlite(@"Data Source=Data\Cuidades.db");
         }
              
     }
