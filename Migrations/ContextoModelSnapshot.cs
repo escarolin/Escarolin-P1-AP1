@@ -21,7 +21,7 @@ namespace Escarolin_P1_AP1.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Nombres")
+                    b.Property<string>("Nombre")
                         .HasColumnType("TEXT");
 
                     b.HasKey("CuidadId");

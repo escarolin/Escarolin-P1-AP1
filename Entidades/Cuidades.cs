@@ -6,7 +6,7 @@ namespace Escarolin_P1_AP1.Entidades{
         [Key]
         public int CuidadId { get; set; }
 
-        public string Nombres { get; set; }
+        public string Nombre { get; set; }
 
     }
 }

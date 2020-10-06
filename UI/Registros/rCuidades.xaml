@@ -5,8 +5,51 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Escarolin_P1_AP1.UI.Registros"
         mc:Ignorable="d"
-        Title="rCuidades" Height="450" Width="800">
+        Title="Registro de Cuidades" Height="450" Width="800">
     <Grid>
-        
+        <StackPanel Orientation="Vertical" Margin="10,10,10,10" >
+            <Label Content="Ciudad Id"/>
+            <!--—-->
+            <StackPanel Orientation="Horizontal" Height="30">
+                <TextBox x:Name="CiudadIdTextbox" Text="{Binding CuidadId}" Width="150"/>
+                <Button x:Name="BuscarButton" Margin="100,0,0,0" Width="100" Click="BuscarButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                       
+                        <Image Source= "/Imagenes/Buscar.png"/>
+                        <Label Content="Buscar"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+            <!--————-->
+            <Label Content="Nombre" Margin="0,10,0,0" />
+            <TextBox x:Name="NombreTextbox" Text="{Binding Nombre}" Height="25" />
+            <!--————-->
+            <StackPanel Orientation="Horizontal" Margin="0,20,0,0" HorizontalAlignment="Center">
+                <Button x:Name="NuevoButton" Width="100" Click="NuevoButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                        
+                        <Image Source= "/Imagenes/Nuevo.png" Height="20"/>
+                        <Label Content="Nuevo"/>
+                    </StackPanel>
+                </Button>
+                <!--—-->
+                <Button x:Name="GuardarButton" Margin="30,0,0,0" Width="100" Click="GuardarButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                       
+                        <Label Content="Guardar"/>
+                        <Image Source= "/Imagenes/Guardar.png" Height="20"/>
+                    </StackPanel>
+                </Button>
+                <!--——————————————————————————————————————————————[ BOTON ELIMINAR ]——————————————————————————————————————————————-->
+                <Button x:Name="EliminarButton" Margin="30,0,0,0" Width="100" Click="EliminarButton_Click">
+                    <StackPanel Orientation="Horizontal">
+                      
+                        <Image Source= "/Imagenes/Borrar.png" Height="20"/>
+                        <Label Content="Eliminar"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+
+        </StackPanel> 
     </Grid>
 </Window>

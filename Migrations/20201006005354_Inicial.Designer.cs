@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Escarolin_P1_AP1.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20201005233704_Inicial")]
+    [Migration("20201006005354_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,7 +23,7 @@ namespace Escarolin_P1_AP1.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Nombres")
+                    b.Property<string>("Nombre")
                         .HasColumnType("TEXT");
 
                     b.HasKey("CuidadId");

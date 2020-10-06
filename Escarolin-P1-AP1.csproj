@@ -16,7 +16,7 @@
     </PackageReference>
 
     <!-- Imagenes -->
-    <Content Include="Imagenes\*.*" >
+    <Content Include="Imagenes\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

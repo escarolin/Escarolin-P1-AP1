@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Escarolin_P1_AP1.UI.Consulta;
+using Escarolin_P1_AP1.UI.Registros;
 
 namespace Escarolin_P1_AP1
 {
@@ -24,8 +26,18 @@ namespace Escarolin_P1_AP1
         {
             InitializeComponent();
         }
-            
-       
+
+        private void rCuidadesButton_Click(object sender, RoutedEventArgs e)
+        {
+            rCuidades rCiudades = new rCuidades();
+            rCiudades.Show();
+        }
+
+        private void cCuidadadesButton_Click(object sender, RoutedEventArgs e)
+        {
+            cCiudades cCiudades = new cCiudades();
+            cCiudades.Show();
+        }
 
 
     }

@@ -10,13 +10,13 @@
     <StackPanel>
             <Menu Height="18">
                 <MenuItem Header="Registros">
-                    <MenuItem x:Name="rPersonasMenuItem" Header="Registro de Personas" ></MenuItem>
-                    <MenuItem x:Name="rPrestamoMenuItem" Header="Registro de Prestamo" ></MenuItem>
+                    <MenuItem x:Name="rCuidadesMenuItem" Header="Registro de Ciudades" Click="rCuidadesButton_Click" ></MenuItem>
+                    
                
                    </MenuItem>
                      <MenuItem Header="Consultas">
-                    <MenuItem x:Name="cPersonasMenuItem" Header="Consulta de Personas" />
-                    <MenuItem x:Name="cPrestamoMenuItem" Header="Consulta de Prestamo" />
+                    <MenuItem x:Name="cCiudadesMenuItem" Header="Consulta de Ciudades" Click="cCuidadadesButton_Click" />
+                   
                 </MenuItem>
 
                 <MenuItem Header="Ayuda">
